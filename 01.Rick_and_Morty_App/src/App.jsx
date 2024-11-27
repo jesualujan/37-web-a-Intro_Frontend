@@ -1,3 +1,6 @@
+import Character from './Components/Character/Character'
+import Navbar from './Components/Navbar/Navbar'
+import PagButtons from './Components/PagButtons/PagButtons'
 import './App.css'
 
 function App() {
@@ -5,7 +8,10 @@ function App() {
 
   return (
     <>
-      <h1> APLICACIÓN DE RICK AND MORTY </h1>
+    {/*de esta forma llamo a mis componentes */}
+      <Navbar />
+      <Character />
+      <PagButtons />
     </>
   )
 }
