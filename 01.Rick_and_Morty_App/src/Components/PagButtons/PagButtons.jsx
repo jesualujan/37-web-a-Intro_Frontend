@@ -1,8 +1,18 @@
+/* eslint-disable react/prop-types */
+import './pagbuttons.css'
 
-
-const PagButtons = () => {
+const PagButtons = ({handlePrevious, handleNext}) => {
   return (
-    <h1>PagButtons</h1>
+    <>
+    <ul className='pagination__buttons'>
+    <li className='pagination__button-item'>
+      <button onClick={handlePrevious}>Previous</button>
+    </li>
+    <li className='pagination__button-item'>
+      <button onClick={handleNext}>Next</button>
+    </li>
+    </ul>
+    </>
   )
 }
 
