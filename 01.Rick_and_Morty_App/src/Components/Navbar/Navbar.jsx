@@ -1,5 +1,5 @@
 import './navbar.css'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/react.svg'
 const Navbar = () => {
   return (
      <nav className='navbar navbar-dark bg-dark'>
